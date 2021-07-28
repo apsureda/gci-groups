@@ -1,0 +1,6 @@
+gcs_bucket: tf-state-ci-group-factory-af09
+gcs_prefix: ci-groups
+gcp_billing_account_id: 0131D6-94FD9F-065EAB
+group_domain: apszaz.com
+group_parent: customers/C018pf49b
+tf_service_account: group-creator@ci-group-factory-af09.iam.gserviceaccount.com
