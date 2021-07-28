@@ -46,16 +46,3 @@ resource "google_cloud_identity_group_membership" "tnt1-bu1-cigroups-app1_brian_
   }
 }
 
-resource "google_cloud_identity_group_membership" "tnt1-bu1-cigroups-app1_donald_knuth_apszaz_com" {
-  group = google_cloud_identity_group.tnt1-bu1-cigroups-app1.id
-  preferred_member_key {
-    id = "donald.knuth@apszaz.com"
-  }
-  roles {
-    name = "MEMBER"
-  }
-  roles {
-    name = "OWNER"
-  }
-}
-
