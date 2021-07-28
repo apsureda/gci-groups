@@ -20,16 +20,6 @@ resource "google_cloud_identity_group_membership" "tnt1-bu1-cigroups-app1_leslie
   }
 }
 
-resource "google_cloud_identity_group_membership" "tnt1-bu1-cigroups-app1_robert_morris_apszaz_com" {
-  group = google_cloud_identity_group.tnt1-bu1-cigroups-app1.id
-  preferred_member_key {
-    id = "robert.morris@apszaz.com"
-  }
-  roles {
-    name = "MEMBER"
-  }
-}
-
 resource "google_cloud_identity_group_membership" "tnt1-bu1-cigroups-app1_dennis_ritchie_apszaz_com" {
   group = google_cloud_identity_group.tnt1-bu1-cigroups-app1.id
   preferred_member_key {
